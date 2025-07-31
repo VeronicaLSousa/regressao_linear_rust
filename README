@@ -1,0 +1,18 @@
+# TimeWise Analytics - Regressão Linear em Rust
+
+## Sobre o Projeto
+Este projeto implementa uma análise de séries temporais utilizando regressão linear pura, sem bibliotecas externas. Desenvolvido em Rust para a empresa fictícia TimeWise Analytics.
+
+## Funcionalidades
+- Implementação pura de regressão linear
+- Cálculo de métricas de avaliação (R² e MSE)
+- Função de previsão de valores futuros
+
+## Estrutura do Projeto
+- `regressao.rs`: Cálculo dos coeficientes da reta
+- `metricas.rs`: Cálculo do erro quadrático médio e R²
+- `previsao.rs`: Função para prever novos valores
+
+## Como Executar os Testes
+```bash
+cargo test
